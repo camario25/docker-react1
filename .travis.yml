@@ -6,7 +6,7 @@ before_install:
   - docker build -t camario25/docker-react1 -f Dockerfile . 
 
 script:
-  - docker run -dit -e CI=true -p 3000:3000 camario25/docker-react1 npm run test
+  - docker run -e CI=true  camario25/docker-react1 npm run test
 
 deploy:
   edge: true 
