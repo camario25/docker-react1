@@ -200,3 +200,6 @@ input.app-interval-input {
 .app-checkboxes li {
   display: block;
 }
+.playground__header {
+  text-align: center;
+}
